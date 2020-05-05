@@ -1,8 +1,7 @@
 import React from 'react';
-import { Button, Platform, Text, View } from 'react-native';
+import { Button, Platform, Text } from 'react-native';
 import * as AuthSession from 'expo-auth-session';
 import * as WebBrowser from 'expo-web-browser';
-import { Linking } from 'expo';
 
 if (Platform.OS === 'web') {
   WebBrowser.maybeCompleteAuthSession();
